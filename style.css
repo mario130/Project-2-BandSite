@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font: 1.2em / 1.2 "Segoe UI",Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+/* styling nav */
+nav{
+    height: 3rem;
+    position: sticky;
+    top: 0;
+}
+
+nav ul{
+    list-style-type: none;
+    background-color: #0a0907;
+    overflow: hidden; /* Important */
+}
+
+nav li{
+    display: inline;
+    float: left;
+}
+
+
+nav a{
+    text-decoration: none;
+    color: #FFF;
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+}
+
+nav a:hover{
+    background-color: #111;
+}
+
+#current{
+    background-color: #172c27;
+}
+/* nav finished */
+
+/* header */
+.concertPic{
+    background-image: url(images/concert.jfif);
+    height: 691px;
+}
+.bandHeading{
+    color: #FFF;
+    padding: 40px;
+}
+.stackDiv{
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 30%;
+    height: 100%;
+    color: #FFF;
+    float: right;
+}
+
+.stackDiv p{
+    margin: 0 20px 20px 25px;
+}
+/* end header */
+/* start main */
+
+main h2 , main p , .contact h2, .contact p{
+    text-align: center;
+}
+
+main h2, .contact h2{
+    font-weight: 400;
+    margin: 60px 0 20px 0;
+    letter-spacing: 4px;
+
+}
+
+main p ,.contact p{
+    font-weight: 100;
+    margin: 25px 0;
+}
+main p{font-style: italic;}
+
+.dates{
+    width: 60%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+figure p{
+    text-align: left;
+    font-style: unset;
+}
+
+figure img{
+    width: 100%;
+}
+figcaption{
+    font-family: "Lato";
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+figure{
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px 5px 0 5px;
+    margin: auto;
+    background-color: #ede2ff;
+}
+
+.buttton{
+    margin-top: 20px;
+    background-color: #000;
+    color: #FFF;
+    border: 0;
+    padding: 8px 16px ;
+    cursor: pointer;
+}
+.buttton:hover{
+    color: #000;
+    background-color: #ccc;
+}
+
+.description{
+    padding:10px;
+}
+
+main{
+    margin: 10px 0 70px 0;
+}
+/* End main */
+/* Start section */
+
+.contact{
+    background-color: #000;
+    color: #FFF;
+    padding: 20px 0 60px 0;
+}
+
+.contactGrid{
+    width: 60%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contactGrid img{
+    max-width: 20px;
+    margin: 10px 10px 0 0;
+
+}
+.contactGrid ul{
+    list-style-type: none;
+    font-family: "awesome";
+}
+.contactGrid p{
+    display: inline;
+    font-family: "lato";
+}
+input{padding: 8px;
+}
+
+textarea{
+    margin: 8px 0 20px 0;
+    width: 75%;
+    padding: 8px;
+}
+.formButton{
+    background-color: #ede2ff;
+    color: #000;
+    border: 0;
+    float: right;
+    margin-right: 83px;
+    padding: 8px 16px ;
+    cursor: pointer;
+}
+.map{
+    width:100%;
+}
+/* start footer */
+footer{
+    background-color: #FFF;
+    color: #000;
+    height: 80px;
+    margin-left: 100px;
+}
+h4{
+    margin: 20px 0 10px 0;
+}
+.footer{
+    text-align: right;
+    float: right;
+    margin-right: 30px;
+}
+footer a{text-decoration: none;color: #000;}
